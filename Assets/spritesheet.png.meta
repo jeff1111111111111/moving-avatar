@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ecf000965b3c7a840bea44e62289313a
+guid: b1b1fded25f699148ad3d38d32092177
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -18,7 +18,7 @@ TextureImporter:
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -118,10 +118,10 @@ TextureImporter:
       name: spritesheet_0
       rect:
         serializedVersion: 2
-        x: 103
+        x: 155
         y: 0
-        width: 970
-        height: 1178
+        width: 878
+        height: 1200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,10 +139,10 @@ TextureImporter:
       name: spritesheet_1
       rect:
         serializedVersion: 2
-        x: 1424
-        y: 113
-        width: 680
-        height: 866
+        x: 2432
+        y: 1071
+        width: 30
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,10 +160,10 @@ TextureImporter:
       name: spritesheet_2
       rect:
         serializedVersion: 2
-        x: 2423
-        y: 1077
-        width: 42
-        height: 104
+        x: 2635
+        y: 1082
+        width: 30
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: spritesheet_3
       rect:
         serializedVersion: 2
-        x: 2635
-        y: 1082
-        width: 30
-        height: 99
+        x: 1502
+        y: 198
+        width: 588
+        height: 748
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
