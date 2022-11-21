@@ -28,9 +28,9 @@ TagManager:
   - 
   - Enemy
   - 
-  - 
-  - 
-  - 
+  - whatIsGround
+  - whatIsWall
+  - whatIsLadder
   - 
   - 
   - 
