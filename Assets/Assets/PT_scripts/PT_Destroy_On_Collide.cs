@@ -17,7 +17,7 @@ public class PT_Destroy_On_Collide : MonoBehaviour {
     private void OnCollisionEnter(Collision collision)
     {
 
-        if(collision.gameObject.tag == "Player")
+        if(collision.gameObject.tag == "bullet")
         {
             Destroy(gameObject);
         }
