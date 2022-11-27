@@ -30,7 +30,7 @@ public class MoveBullet : MonoBehaviour
     {
         if (col.gameObject.tag == "Enemy")
         {
-            col.gameObject.GetComponent<Health>().currentHealth -= 20;
+            col.gameObject.GetComponent<Health1>().currentHealth1 -= 20;
             GameObject newBlood = Instantiate(blood, this.transform.position, this.transform.rotation);
             newBlood.transform.parent = col.transform;
             Destroy(this.gameObject);
