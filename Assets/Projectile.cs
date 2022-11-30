@@ -15,7 +15,7 @@ public class Projectile : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb.velocity = transform.forward * launchForce;  
+        rb.velocity = transform.forward * launchForce;
         if (TagTog == true)
         {
             tagName = "Player";
@@ -31,11 +31,14 @@ public class Projectile : MonoBehaviour
     {
         Destroy(gameObject, destroyAfterSeconds);
     }
+
+
     private void OnCollisionEnter(Collision other)
 
     {
         if (other.gameObject.tag == tagName)
         {
+            Debug.Log("Hit a " + tagName);
             Health _health = other.transform.GetComponent<Health>();
             if (_health == null)
             {
